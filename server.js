@@ -1,6 +1,7 @@
 // Include Server Dependencies
 const bodyParser = require('body-parser');
 const express = require('express');
+const exphbs = require('express-handlebars');
 
 // Use Express
 const app = express();
@@ -9,6 +10,12 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
+
+// Set Templating engine as handlebars
+app.engine('handlebars', exphbs({
+	defaultLayout: 'main'
+}));
+app.set('view engine', 'handlebars');
 
 // Require Our Routes
 const routes = require('./controllers/routes.js');

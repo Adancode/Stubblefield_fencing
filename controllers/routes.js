@@ -17,7 +17,7 @@ router.get('/', function(req, res, next) {
 
 // GET Landing Route
 router.get('/landing', function(req, res, next) {
-   res.send('Landing Page');
+   res.render('index');
 });
 
 // GET About Route
@@ -31,7 +31,7 @@ router.get('/fences', function(req, res, next) {
 });
 
 /*
-// GET Login Route
+// GET Contact Route
 router.get('/contact', function(req, res, next) {
   // if template return res.render('login', { title: 'Log In'});
   res.sendFile(path.join(__dirname, "../views/login.html"));
