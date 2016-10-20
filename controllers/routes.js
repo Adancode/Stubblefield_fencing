@@ -30,7 +30,6 @@ router.get('/fences', function(req, res, next) {
    res.render('fences');
 });
 
-
 // GET Contact Route
 router.get('/contact', function(req, res, next) {
   res.render('contact');
@@ -51,7 +50,6 @@ router.get('/error', function(req, res, next) {
 router.use(function(req, res) {
     res.redirect('/error');
 });
-
 
 // Export Router
 module.exports = router;
