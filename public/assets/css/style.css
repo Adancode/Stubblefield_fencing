@@ -2,6 +2,25 @@
 	position: fixed;
 	z-index: 5;
 	width: 100%;
-	height:60px;
+	height:50px;
 	text-align: center;
 }
+
+.scrolling-contact-info p{
+		
+	}
+
+
+@media(max-width: 768px) {
+	
+} /* End 601px - 768px*/
+
+@media(max-width: 600px) {
+	.scrolling-contact-info{
+		height: 60px;
+	}
+} /* End 481 - 600px*/
+
+@media(max-width: 480px) {
+	
+} /* End < 480px */
