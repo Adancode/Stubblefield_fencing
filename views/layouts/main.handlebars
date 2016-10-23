@@ -4,7 +4,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   		{{!-- Google Fonts --}}
-  		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  		<link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet">
 		{{!-- Materialize CSS --}}
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 		{{!-- Animsition CSS --}}
@@ -19,69 +20,41 @@
         <div class="animsition"> {{!-- Begin Animsition --}}
     		<header class="page-header">
     			<div class="navbar-fixed">
-    				<nav class="light-blue lighten-1" role="navigation">
+    				<nav class="white lighten-1" role="navigation">
     					<div class="nav-wrapper container">
-    						<a id="logo-container" href="#" class="brand-logo">Stubblefield Fences</a>
-          					<ul class="right hide-on-med-and-down">
-           				 		<li><a href="/home" class="animsition-link">Index</a></li>
-           				 		<li><a href="/about" class="animsition-link">About</a></li>
+    						<a id="logo-container" href="#" class="brand-logo chosen-font">Stubblefield Fences</a>
+          					<ul class="right hide-on-med-and-down nav-ul chosen-font">
+           				 		<li><a href="/home" class="animsition-link">Home</a></li>
            				 		<li><a href="/fences" class="animsition-link">Our Fences</a></li>
            				 		<li><a href="/contact" class="animsition-link">Contact</a></li>
+                      <li><a href="/about" class="animsition-link">About</a></li>
           					</ul>
           					<ul id="nav-mobile" class="side-nav">
-            					<li><a href="/home" class="animsition-link">Index</a></li>
-           				 		<li><a href="/about" class="animsition-link">About</a></li>
+            					<li><a href="/home" class="animsition-link">Home</a></li>
            				 		<li><a href="/fences" class="animsition-link">Our Fences</a></li>
            				 		<li><a href="/contact" class="animsition-link">Contact</a></li>
+                      <li><a href="/about" class="animsition-link">About</a></li>
           					</ul>
-          					<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+          					<a href="#" data-activates="nav-mobile" class="button-collapse grey"><i class="material-icons">menu</i></a>
        					 </div>
     				</nav>
     			</div>
-    			<div class="scrolling-contact-info blue row " hidden="true">
-    					<p class="white-text col l6 s6 ">Locally owned, Veteran operated</p>
+    			<div class="scrolling-contact-info row " hidden="true">
+    					<p class="white-text col l6 s6 ">Veteran operated and operated.</p>
     					<p class="white-text col l6 s6 ">Call for a quote today at : 512-555-5555</p>
     				</div>
     		</header>
     		{{{ body }}}
-    		<footer class="page-footer light-blue">
-        		<div class="container">
-         			<div class="row">
-           				<div class="col l6 s12">
-            			    <h5 class="white-text">Company Bio</h5>
-              				<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-            			</div>
-            			<div class="col l3 s12">
-    			          <h5 class="white-text">Settings</h5>
-    			          <ul>
-    			            <li><a class="white-text" href="#!">Link 1</a></li>
-    			            <li><a class="white-text" href="#!">Link 2</a></li>
-    			            <li><a class="white-text" href="#!">Link 3</a></li>
-    			            <li><a class="white-text" href="#!">Link 4</a></li>
-    			          </ul>
-           				 </div>
-    			        <div class="col l3 s12">
-    			          <h5 class="white-text">Connect</h5>
-    			          <ul>
-    			            <li><a class="white-text" href="#!">Link 1</a></li>
-    			            <li><a class="white-text" href="#!">Link 2</a></li>
-    			            <li><a class="white-text" href="#!">Link 3</a></li>
-    			            <li><a class="white-text" href="#!">Link 4</a></li>
-    			          </ul>
-    			        </div>
-          			</div>
-        		</div>
-        		<div class="footer-copyright blue">
-              		<div class="container row">
-                        <div class="col l6 m6 s12 center-align">
-                            &copy 2016 Stubblefield Fence Co.
+        		<footer class="footer-copyright footer" id="our-footer">
+              		<div class="container row ">
+                        <div class="col l6 m6 s12 center-align chosen-font">
+                            <h6>&copy 2016 Stubblefield Fence Co.</h6>
                         </div>
-                        <div class="col l6 m6 s12 center-align">
-             		 Made by <a class="orange-text text-lighten-3" href="https://multishifties.github.io/" target="_blank">Short-Tie Designs</a>
+                        <div class="col l6 m6 s12 center-align"><h6>
+             		 Made by <a class="orange-text text-lighten-3" href="https://multishifties.github.io/" target="_blank">Short-Tie Designs</a></h6>
                         </div>
               		</div>
-        		</div>
-      		</footer>
+        		</footer>
         </div> {{!-- End animsition --}}
 		{{!-- jQuery CDN --}}
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
