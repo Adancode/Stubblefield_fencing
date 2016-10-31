@@ -48,9 +48,26 @@ GALLERY/LIGHTBOX PREVIEW
 /*****
 FOOTER
 *****/
+
+.body-tag{
+	height:100%;
+	position:relative;
+}
+
 #our-footer{
+	position: absolute;
+	width:100%;
 	background-color:#999;
-	min-height: 50px;
+	min-height: 40px;
+}
+
+/*****
+INDEX/HOME PAGE
+*****/
+/* must use id to override row and col styles */
+#wide-img{
+	width:100%;
+	padding: 0px;
 }
 
 /*****
