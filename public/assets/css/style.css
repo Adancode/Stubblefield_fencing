@@ -71,6 +71,14 @@ INDEX/HOME PAGE
 }
 
 /*****
+CONTACT PAGE
+*****/
+
+.input-text-box{
+	min-height: 140px;
+}
+
+/*****
 MEDIA QUERIES
 *****/
 

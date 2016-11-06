@@ -2,22 +2,35 @@
 	<div class="row center">
     	<img class="center col l12 m12 s12" id="wide-img" src="assets/img/custom1.jpg">
 	</div>
-  <div class="valign-wrapper">
-    <h1 class="valign center-align text-center">CONTACT!</h1>
-  </div>
+    <section>
+        <h1 class="center header orange-text">Contact Us</h1>
+    </section>
   <div class="row">
-	  <div class="col s12 m4 12"></div>
-	  	<div class="col s12 m4 18">
-	  	  <div class="input-field">
-			  <form class="center-align" method='post' action='http://formspree.io/multishifties@yahoo.com'>
-			  	<input type="text" name="sender_name" placeholder ="Your Name"/>
-			  	<input type="email" name="email" placeholder ="Email"/>
-			  	<input type="text" name="subject" placeholder ="Subject"/>
-				<textarea name="message" placeholder="Your message here"></textarea>
-				<button type="submit">Send</button>
-			  </form>
-		  </div>
-		</div>
-	  <div class="col s12 m4 12"></div>
+    <div class="col s0 m1 2"></div>
+  	<div class="col s12 m10 8">{{!-- main wrapper --}}
+		<form class="center-align" id="our-contact" method='post' action='http://formspree.io/joshstubblefield11@gmail.com'>
+    		  <section class="row">
+    		  	<div class="input-field col s12 m6 6">
+    		  		<input type="text" id="name_goes_here" name="sender_name" placeholder ="Your Name"/>
+    		  		<label for="name_goes_here">Your name</label>
+    		  	</div>
+    		  	<div class="input-field col s12 m6 6">
+    		  		<input type="email" name="email" id="email_goes_here" placeholder ="Email"/>
+    		  		<label for="email_goes_here">Your Email</label>
+    		  	</div>
+    		  </section>
+    		  <section class="row">
+                <div class="input-field col s12 m12 12">
+    		  	    <input type="text" name="subject" placeholder ="Subject" id="subject_goes_here"/>
+                    <label for="subject_goes_here">Subject</label>
+                </div>
+                <div class="input-field col s12 m12 12">
+    			   <textarea class="input-text-box" name="message" placeholder="Your message here"></textarea>
+                </div>
+    		  </section>
+			<button type="submit">Send</button>
+		</form>  	
+    </div>
+    <div class="col s0 m1 2"></div>
   </div>
 </main>
