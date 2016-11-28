@@ -45,6 +45,14 @@ GALLERY/LIGHTBOX PREVIEW
 	max-height: 100%;
 }
 
+.gallery-thumbnail:hover {
+    opacity: 0.6;
+    width: 108%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
 /*****
 FOOTER
 *****/
